@@ -4,6 +4,6 @@ import org.testng.asserts.Assertion;
 public class NewTest {
     @Test
     void newTest() {
-        System.out.println("Hello, world");
-        Assertion.assertTrue(3 > 2);
+        int i = 3;
+        Assertion.assertTrue(i > 2);
     }
